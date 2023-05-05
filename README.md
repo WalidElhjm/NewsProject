@@ -5,3 +5,5 @@ pour la partie Data sur ce projet je n'ai pas utilisé une BDD pour stocker les 
 Sinon j'ai du voir par avant Sonarqube pour la qualité de code , jenkins pour l'intégration continue , j'ai utilisé zepelin , figma click up pour noter le design , jira gestion des bugs , confluence gestion de projet .
 
 Sinon en général aussi , j'opte pour les Sprint Review question de regarder/proposer les bonnes pratiques (ne jamais ecrire en dure , ecrire des valeurs significatifs ex : StringRessource(nom_du_screen_SaValeur)) . 
+
+En ce qui concerne l'api key , je l'ai mis et laissé le mien sur la classe Constants mais pas sur un vrai projet j'aurais fais une reference dans le fichier gradle de l'app
