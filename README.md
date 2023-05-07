@@ -16,7 +16,7 @@
 Sur ce projet j'ai pas poussé loin les tests j'aurais pu utilisé Dagger hilt ui testing , UI testing by compose , unit testing by truth google ....
 
 
-Resumé : 
+## Resumé : 
 
 Pour ce mini projet from scratch , en général pour un court projet je suis plutot sur du MVC-clean architecture.
 
