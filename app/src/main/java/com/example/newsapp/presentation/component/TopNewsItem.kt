@@ -17,8 +17,8 @@ import androidx.compose.ui.unit.dp
 import com.example.newsapp.data.model.NewsArticle
 import com.example.newsapp.presentation.util.Util
 import com.example.newsapp.presentation.util.Util.getTimeAgo
-import com.skydoves.landscapist.coil.CoilImage
 import com.example.newsapp.R
+import com.skydoves.landscapist.glide.GlideImage
 
 
 @Composable
@@ -34,7 +34,7 @@ fun TopNewsItem(article: NewsArticle, onItemClick: () -> Unit) {
                 contentDescription = "NewItem"
             }
     ) {
-        CoilImage(
+        GlideImage(
             imageModel = article.urlToImage,
             contentDescription = "",
             contentScale = ContentScale.FillBounds,
