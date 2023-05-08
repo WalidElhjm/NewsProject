@@ -46,6 +46,7 @@ fun NewsListScreen(
                         Text(
                             modifier = Modifier.padding(10.dp),
                             text =  stringResource(id = R.string.app_name),
+                            color = Color.White,
                             style = MaterialTheme.typography.h4,
                             textAlign = TextAlign.Center
                         )
