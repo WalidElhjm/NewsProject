@@ -26,9 +26,12 @@ En ce qui concerne la langue du téléphone , j'ai testé avec la langue anglais
 	  padding: 5px;
 	}
 	img {
-      height: 400;
-      width:200
+      height: 30%;
+      width: 30%;
 	}	
+    .container {
+	   display: flex;
+	}
 </style>
 
 <div class="container">
@@ -41,8 +44,6 @@ En ce qui concerne la langue du téléphone , j'ai testé avec la langue anglais
 
 </div>
  
-   
-
 
 
 ## FR : 
@@ -52,7 +53,7 @@ En ce qui concerne la langue du téléphone , j'ai testé avec la langue anglais
 <img src="https://user-images.githubusercontent.com/105220639/236854267-70a3bf42-1596-4d6f-b0b1-c242599820e1.png"> 
 	</div>
 	<div class="column">
-<img src="https://s3.ap-south-1.amazonaws.com/s3.studytonight.com/tutorials/uploads/pictures/1627458592-101156.png">
+<img src="https://user-images.githubusercontent.com/105220639/236854359-2ffc5294-5927-4bd9-9477-dbea0d5232fd.png">
 	</div>
 
 </div>
