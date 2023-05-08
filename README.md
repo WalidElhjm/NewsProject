@@ -24,10 +24,6 @@ En ce qui concerne la langue du téléphone , j'ai testé avec la langue anglais
 	.column {
 	  float: left;
 	  padding: 5px;
-	}
-	img {
-      height: 30%;
-      width: 30%;
 	}	
     .container {
 	   display: flex;
@@ -36,10 +32,10 @@ En ce qui concerne la langue du téléphone , j'ai testé avec la langue anglais
 
 <div class="container">
 	<div class="column">
-<img src="https://user-images.githubusercontent.com/105220639/236853975-bcf74ec3-8c2e-4818-94e2-7f7a10f25eb0.png" />  
+<img src="https://user-images.githubusercontent.com/105220639/236853975-bcf74ec3-8c2e-4818-94e2-7f7a10f25eb0.png" width="200" height="400"/>  
 	</div>
 	<div class="column">
-<img src="https://user-images.githubusercontent.com/105220639/236866173-dd30f197-165e-4589-86eb-6f4199c1a022.png"/>
+<img src="https://user-images.githubusercontent.com/105220639/236866173-dd30f197-165e-4589-86eb-6f4199c1a022.png" width="200" height="400"/>
 	</div>
 
 </div>
