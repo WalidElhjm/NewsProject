@@ -20,13 +20,17 @@ J'ai utilisé MockK et Junit pour tester le repository et le viewModel (Flow par
 En ce qui concerne la langue du téléphone , j'ai testé avec la langue anglaise et française , vous pouvez trouver ci dessous les screenshots (Pour les news en fr il manque les image j'ai donc ajouté une image pour Unavailable Image) , Pour récupérer la langue du téléphone j'ai utilisé Locale.getDefault().country , cette ligne retourne deux lettres codes 
 
 ## US :
-<div style="width:60px ; height:100px">
-![news_us](https://user-images.githubusercontent.com/105220639/236853975-bcf74ec3-8c2e-4818-94e2-7f7a10f25eb0.png)
-<div>
+
+<img src="https://user-images.githubusercontent.com/105220639/236853975-bcf74ec3-8c2e-4818-94e2-7f7a10f25eb0.png" width="200" height="400" />   
+<img src="https://user-images.githubusercontent.com/105220639/236866173-dd30f197-165e-4589-86eb-6f4199c1a022.png" width="200" height="400" />   
+
 
 
 ## FR : 
-![news_fr](https://user-images.githubusercontent.com/105220639/236854267-70a3bf42-1596-4d6f-b0b1-c242599820e1.png)![detail_fr](https://user-images.githubusercontent.com/105220639/236854359-2ffc5294-5927-4bd9-9477-dbea0d5232fd.png)
+
+<img src="https://user-images.githubusercontent.com/105220639/236854267-70a3bf42-1596-4d6f-b0b1-c242599820e1.png" width="200" height="400" /> 
+
+<img src="https://user-images.githubusercontent.com/105220639/236854359-2ffc5294-5927-4bd9-9477-dbea0d5232fd.png" width="200" height="400" /> 
 
 
 
