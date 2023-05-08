@@ -21,29 +21,19 @@ En ce qui concerne la langue du téléphone , j'ai testé avec la langue anglais
 
 ## US :
 
-<div display="flex">
-	<div padding="5px" float="left">
+<p float="left">
 <img src="https://user-images.githubusercontent.com/105220639/236853975-bcf74ec3-8c2e-4818-94e2-7f7a10f25eb0.png" width="200" height="400"/>  
-	</div>
-	<div padding="5px" float="left">
 <img src="https://user-images.githubusercontent.com/105220639/236866173-dd30f197-165e-4589-86eb-6f4199c1a022.png" width="200" height="400"/>
-	</div>
-
 </div>
  
 
 
 ## FR : 
 
-<div display="flex">
-	<div padding="5px" float="left">
+<p float="left">
 <img src="https://user-images.githubusercontent.com/105220639/236854267-70a3bf42-1596-4d6f-b0b1-c242599820e1.png" width="200" height="400"> 
-	</div>
-	<div padding="5px" float="left">
 <img src="https://user-images.githubusercontent.com/105220639/236854359-2ffc5294-5927-4bd9-9477-dbea0d5232fd.png" width="200" height="400">
-	</div>
-
-</div>
+</p>
 
 
 ## Resumé : 
