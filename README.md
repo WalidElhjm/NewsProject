@@ -21,7 +21,7 @@ En ce qui concerne la langue du téléphone , j'ai testé avec la langue anglais
 
 ## US :
 <div style="width:60px ; height:100px">
-![news_us](https://user-images.githubusercontent.com/105220639/236853975-bcf74ec3-8c2e-4818-94e2-7f7a10f25eb0.png)!![detail_us|500](https://user-images.githubusercontent.com/105220639/236866173-dd30f197-165e-4589-86eb-6f4199c1a022.png)
+![news_us](https://user-images.githubusercontent.com/105220639/236853975-bcf74ec3-8c2e-4818-94e2-7f7a10f25eb0.png)
 <div>
 
 
