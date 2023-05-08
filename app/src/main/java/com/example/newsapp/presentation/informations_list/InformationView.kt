@@ -56,9 +56,9 @@ fun InformationView(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         GlideImage(
-            imageModel = article.urlToImage,
+            imageModel = article.urlToImage.let { article.urlToImage ?: R.drawable.image_not_available },
             contentDescription = "",
-            contentScale = ContentScale.FillBounds,
+            contentScale = ContentScale.Crop,
             error = painterResource(id = R.drawable.ic_broken_image),
             placeHolder = painterResource(id = R.drawable.ic_broken_image)
         )

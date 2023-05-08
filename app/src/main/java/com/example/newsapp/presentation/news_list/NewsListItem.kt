@@ -33,9 +33,10 @@ fun NewsListItem(article: NewsArticle, onItemClick: () -> Unit) {
             }
     ) {
         GlideImage(
-            imageModel = article.urlToImage,
-            contentDescription = "",
-            contentScale = ContentScale.FillBounds,
+            imageModel = article.urlToImage.let {
+                article.urlToImage ?: R.drawable.images_notavailable
+            },
+            contentScale = ContentScale.Crop,
             error = painterResource(id = R.drawable.ic_broken_image),
             placeHolder = painterResource(id = R.drawable.ic_broken_image)
         )
@@ -58,7 +59,7 @@ fun NewsListItem(article: NewsArticle, onItemClick: () -> Unit) {
                 )
             }
             Text(
-                text = article.title ?: String(),
+                text = article.title ?: "NONE",
                 color = Color.White,
                 fontWeight = FontWeight.SemiBold,
                 modifier = Modifier.semantics {
