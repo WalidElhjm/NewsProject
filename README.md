@@ -20,10 +20,13 @@ J'ai utilisé MockK et Junit pour tester le repository et le viewModel (Flow par
 En ce qui concerne la langue du téléphone , j'ai testé avec la langue anglaise et française , vous pouvez trouver ci dessous les screenshots (Pour les news en fr il manque les image j'ai donc ajouté une image pour Unavailable Image) , Pour récupérer la langue du téléphone j'ai utilisé Locale.getDefault().country , cette ligne retourne deux lettres codes 
 
 ## US :
-![news_us](https://user-images.githubusercontent.com/105220639/236853975-bcf74ec3-8c2e-4818-94e2-7f7a10f25eb0.png){: width="50%"}!![detail_us](https://user-images.githubusercontent.com/105220639/236866173-dd30f197-165e-4589-86eb-6f4199c1a022.png){: width="50%"}
+<div style="width:60px ; height:100px">
+![news_us](https://user-images.githubusercontent.com/105220639/236853975-bcf74ec3-8c2e-4818-94e2-7f7a10f25eb0.png)!![detail_us|500](https://user-images.githubusercontent.com/105220639/236866173-dd30f197-165e-4589-86eb-6f4199c1a022.png)
+<div>
+
 
 ## FR : 
-![news_fr](https://user-images.githubusercontent.com/105220639/236854267-70a3bf42-1596-4d6f-b0b1-c242599820e1.png)![detail_fr](https://user-images.githubusercontent.com/105220639/236854359-2ffc5294-5927-4bd9-9477-dbea0d5232fd.png | width = "50%")
+![news_fr](https://user-images.githubusercontent.com/105220639/236854267-70a3bf42-1596-4d6f-b0b1-c242599820e1.png)![detail_fr](https://user-images.githubusercontent.com/105220639/236854359-2ffc5294-5927-4bd9-9477-dbea0d5232fd.png)
 
 
 
@@ -59,4 +62,4 @@ J'ai rajouté un gitignore avec tous ce qu'on en met en général .
 
 Au final , pour le versionning , j'avais déja utilisé SVN .
 Pour ce mini projet j'ai utilisé git .
-En general git avec un desktop ou ligne de commande pour gérer les branches  ,pour les nouvelles features , correction de bugs ...
+En general git avec un desktop ou ligne de commande pour gérer les branches  ,pour les nouvelles features , correction de bugs...
