@@ -36,7 +36,6 @@ fun InformationScreen(
 
     ) {
         article?.let { article ->
-            Log.i("YOW",article.title.toString())
             InformationView(article = article)
         }
     }
