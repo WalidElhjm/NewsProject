@@ -60,6 +60,8 @@ En agilité Scrum:
 Sprint Review 
 - pour regarde/proposer des solutions optimale / modification .
 - les bonnes pratiques , ne pas ecrire en dure / ecrire des valeurs significatifs ex : StringRessource(nom_du_screen_RessourceName))
+Rajouter des commentaire pour expliquer la methode .
+Mettre des noms d'attributs significatif.
 
 En ce qui concerne l'api key , je l'ai mis et laissé le mien dans la classe "Constants" , j'aurais pu faire une reference dans le fichier gradle de l'app et vous laisser créer votre key le mettre dans local.properties . ce dernier sera sur gitignore file .
 
