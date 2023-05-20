@@ -26,7 +26,6 @@ class NewsListViewModel @Inject constructor(
         get() = _mainState.asStateFlow()
     init {
         getNews()
-        getSelectedArticle(0)
     }
 
     fun getSelectedArticle(index: Int?) {
