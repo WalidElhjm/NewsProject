@@ -44,7 +44,7 @@ En tenant compte de ce qui était demandé , les tests surtout . et pour un proj
 Pour en parler en général . de l'unique responsabilité , les classes devront avoir que leurs propres methodes de pouvoir modifier , ajouter des interface , héritage , de l'injection de dépendance comme avec koin ou dagger hilt (ce que j'ai utilisé sur ce projet). déja en choisissant cette architecture on opte a séparer le code en 3 couches ou modules pour faciliter la modification et la maintenance , couplage lache , code flexible facilement testable ... 
 
 
-Pour le MVVM sur la partie présentation , j'utilise les viewModels pour le databinding et du jetpack compose pour créer les interfaces et du livedata pour observer les données et ensuite modifier les composants . sinon les fragments et activities . 
+Pour le MVVM sur la partie présentation , j'utilise les viewModels pour le databinding et du jetpack compose pour créer les interfaces et du State Flow ou Livedata pour observer les données et ensuite modifier les composants (J'ai utilisé du stateflow sur ce projet). sinon les fragments et activities . 
 
 Pour la partie Data sur ce projet je n'ai pas utilisé une BDD pour stocker les données ces derniers temps j'ai travaillé avec Room et realm .on a une classe pour gérer notre model et stocker  les données .retrofit to  Room DB "fromSource toSource". j'ai directement utilisé retrofit avec moshi (JSON library) remotly et afficher directement notre model. c'est sur ce module qu'on implemente notre repository le responsable pour communiquer avec le datasource en local et en remote  .
 
@@ -53,13 +53,13 @@ Et puis on a le domain c'est la qu'on trouve notre business logic sur lequelle j
 Junit et Mokk pour les tests unitaire . CoilImage ou Glide pour la partie Image .
 
 
-Sinon j'ai du voir par avant Sonarqube pour la qualité de code , garbage collector sur profiler ou Leak Canary pour la fuite de mémoire, jenkins pour l'intégration continue , j'ai utilisé zepelin , figma click up pour le design , jira gestion des bugs , confluence gestion de projet .
+Sinon j'ai du voir par avant Sonarqube pour la qualité de code , garbage collector sur profiler ou LeakCanary pour la fuite de mémoire, jenkins pour l'intégration continue , j'ai utilisé zepelin , figma click up pour le design , jira gestion des bugs , confluence gestion de projet .
 Bitbucket avec jira ,confluence , git , jenkins .
 
 En agilité Scrum:
 Sprint Review 
 - pour regarde/proposer des solutions optimale / modification .
-- les bonnes pratiques , ne pas ecrire en dure / ecrire des valeurs significatifs ex : StringRessource(nom_du_screen_RessourceName))
+- les bonnes pratiques ( ne pas ecrire en dure / ecrire des valeurs significatifs ex : StringRessource(nom_du_screen_RessourceName))
 Rajouter des commentaire pour expliquer la methode .
 Mettre des noms d'attributs significatif.
 
