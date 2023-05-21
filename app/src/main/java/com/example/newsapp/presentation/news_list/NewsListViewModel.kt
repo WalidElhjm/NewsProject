@@ -8,7 +8,9 @@ import com.example.newsapp.common.DataState
 import com.example.newsapp.data.model.NewsArticle
 import com.example.newsapp.domain.use_case.GetNewsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 @HiltViewModel
@@ -43,11 +45,15 @@ class NewsListViewModel @Inject constructor(
             when (result) {
 
                 is DataState.Success -> {
-                    _state.value = result.data?.articles?.let { NewsListState(articles = it) }!!
+                    withContext(Dispatchers.Main) {
+                        _state.value = result.data?.articles?.let { NewsListState(articles = it) }!!
+                    }
                 }
 
                 is DataState.Error -> {
-                    _state.value = NewsListState(isLoading = false, error = Exception())
+                    withContext(Dispatchers.Main) {
+                        _state.value = NewsListState(isLoading = false, error = result.message)
+                    }
                 }
                 is DataState.Loading -> {
                     _state.value = NewsListState(isLoading = true)
