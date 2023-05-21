@@ -1,4 +1,4 @@
-package com.bikcodeh.newsapp.util
+package com.example.newsapp.util
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi

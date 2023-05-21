@@ -1,7 +1,7 @@
 package com.example.newsapp.viewmodel
 
 import app.cash.turbine.test
-import com.bikcodeh.newsapp.util.MainCoroutineRule
+import com.example.newsapp.util.MainCoroutineRule
 import com.example.newsapp.common.DataState
 import com.example.newsapp.data.model.NewsArticle
 import com.example.newsapp.data.model.NewsResponse
